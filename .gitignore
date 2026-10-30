@@ -1,0 +1,9 @@
+# 私有与运行时配置（含密钥或本机状态，不入库）
+lingliu_r2_private.json
+lingliu_api.json
+.env
+
+# 缓存与临时输出
+__pycache__/
+*.pyc
+temp/

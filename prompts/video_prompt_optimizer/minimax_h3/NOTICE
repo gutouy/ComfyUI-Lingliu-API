@@ -1,0 +1,4 @@
+MiniMax H3 is licensed under the MiniMax H3 Community License Agreement, Copyright © 2026 MiniMax. All Rights Reserved.
+
+This package includes unmodified prompt-writing documentation from MiniMax-AI/MiniMax-H3 at commit d21241f0a4b3acbb34c97dae47fa417b7065e438.
+The lightweight style profiles in ../style_profiles.json are derived prompt-only adaptations. They omit MiniMax Hub, canvas, media-generation, model-routing, editing, composition, delivery, and confirmation workflows.

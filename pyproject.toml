@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-lingliu-api"
+description = "Lingliu API nodes for ComfyUI: image, video, matting, motion imitation, upscaling and TTS through the Lingliu platform."
+version = "17.7.0"
+license = { file = "LICENSE" }
+dependencies = ["numpy", "Pillow", "requests", "torch", "av"]
+
+[project.urls]
+Repository = "https://github.com/gutouy/ComfyUI-Lingliu-API"
+Homepage = "https://api.lingliuapi.com"
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Lingliu API Nodes"
+Icon = ""

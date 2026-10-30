@@ -1,0 +1,47 @@
+{
+  "1": {
+    "inputs": {
+      "提示词": "参考图片中的配色和主体，结合视频动作与音频节奏生成简洁的短镜头。",
+      "模型": "wan3.0-低价-1080p",
+      "生成模式": "自动",
+      "时长": 2,
+      "比例": "模型默认",
+      "API密钥": "",
+      "等待完成": true,
+      "最大轮询次数": 180,
+      "轮询间隔": 10,
+      "参考图1": [
+        "2",
+        0
+      ]
+    },
+    "class_type": "lingliu_wan3_low",
+    "_meta": {
+      "title": "lingliu_Wan3.0低价视频"
+    }
+  },
+  "2": {
+    "inputs": {
+      "image": "wan3_v15_image_01.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "加载图像"
+    }
+  },
+  "3": {
+    "inputs": {
+      "filename_prefix": "video/lingliu_wan3_v15",
+      "format": "auto",
+      "codec": "auto",
+      "video": [
+        "1",
+        0
+      ]
+    },
+    "class_type": "SaveVideo",
+    "_meta": {
+      "title": "保存视频"
+    }
+  }
+}

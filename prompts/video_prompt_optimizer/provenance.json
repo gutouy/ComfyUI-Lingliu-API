@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/MiniMax-AI/MiniMax-H3",
+  "upstream_commit": "d21241f0a4b3acbb34c97dae47fa417b7065e438",
+  "retrieved_at": "2026-08-24",
+  "license_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
+  "notice": "MiniMax H3 is licensed under the MiniMax H3 Community License Agreement, Copyright © 2026 MiniMax. All Rights Reserved.",
+  "vendored_files": [
+    {
+      "path": "minimax_h3/SKILL.md",
+      "source": "skills/h3-prompt-writing/SKILL.md",
+      "sha256": "A7000443588CA3F145E3B3FD8900F14E0325DC460BD811268FAC89A9DC8E56D0",
+      "bytes": 2623,
+      "modified": false
+    },
+    {
+      "path": "minimax_h3/base-en.txt",
+      "source": "skills/h3-prompt-writing/references/base-en.txt",
+      "sha256": "2CFEBC096A6E08370F288D468D90B60F7F9BCB938F94BF090816E910E48E75FC",
+      "bytes": 15773,
+      "modified": false
+    },
+    {
+      "path": "minimax_h3/ref-en.txt",
+      "source": "skills/h3-prompt-writing/references/ref-en.txt",
+      "sha256": "1E574F356716AD55612247FFB7BBCCBCDB484AD96599D63C7DCA1AF186B1FAB7",
+      "bytes": 23553,
+      "modified": false
+    },
+    {
+      "path": "minimax_h3/LICENSE",
+      "source": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/main/LICENSE",
+      "sha256": "59B99642B95EA21630E311198DDBFFFBFE05AADBA0C2F5D884CBDF4EFCC90F44",
+      "bytes": 17604,
+      "modified": false
+    }
+  ],
+  "derived_style_sources": {
+    "极简产品广告": {"source": "skills/minimalist-product-ad-generator/SKILL.cn.md", "sha256": "287341821B2104CA0CAF61326DFDDDC5EFFF09479BB2BE321EEAA7CB8D4D01FA"},
+    "3D 动画短片": {"source": "skills/3d-animation-short-generator/SKILL.cn.md", "sha256": "54767A6B3C0194390A7C16A176269046C3FEA6D20EB787C60789994A07228DDA"},
+    "纸艺定格科普": {"source": "skills/papercraft-stop-motion-explainer/SKILL.cn.md", "sha256": "94DFB06A487AEF8A3D74C5EC7F645FDBD79648DEE06934889D823F2624171237"},
+    "品牌宣传": {"source": "skills/brand-promo-video-generator/SKILL.cn.md", "sha256": "E148AD61FE77114543B03CA68D9E1BC4B343D972D3264F6F2A014EAA27F55243"},
+    "音乐 MV 字幕": {"source": "skills/music-video-subtitle-generator/SKILL.cn.md", "sha256": "6A44651945455BA73F8884474027D33AFCCB7D34485AE6977B454C4C112B6F10"},
+    "双人游戏开场": {"source": "skills/co-op-game-intro-generator/SKILL.cn.md", "sha256": "42120F68416EB0BA3B6FD1D1755B902438CC25C89C0E3C30D445B0D566C7237A"},
+    "纸拼贴讲解": {"source": "skills/paper-collage-explainer-generator/SKILL.cn.md", "sha256": "CEAECC38DCF78294D12E658C57B690A0F671BC4B9F7292EF5A65A7DB178DA4AA"},
+    "手绘实拍融合": {"source": "skills/handdrawn-live-video-generator/SKILL.cn.md", "sha256": "CE4A4BCC867DEF998CD964A15367A9B12CB11534B94A33ED95A4107F49D3DE08"}
+  }
+}
