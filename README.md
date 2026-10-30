@@ -26,14 +26,14 @@
 
 任选一种：
 
-1. **ComfyUI Manager**：在 Manager 里搜索「Lingliu」，安装后重启 ComfyUI。
-2. **git clone**：
+1. **git clone**：
    ```bash
    cd ComfyUI/custom_nodes
    git clone https://github.com/gutouy/ComfyUI-Lingliu-API.git
    pip install -r ComfyUI-Lingliu-API/requirements.txt
    ```
-3. **zip**：在 GitHub 页面下载 zip，解压到 `ComfyUI/custom_nodes/`，再装依赖。
+2. **zip**：在 GitHub 页面下载 zip，解压到 `ComfyUI/custom_nodes/`，再装依赖。
+3. **ComfyUI Manager**：ComfyUI-Manager 收录后可直接搜索「Lingliu」安装（审核中）。
 
 依赖：numpy、Pillow、requests、torch、av（ComfyUI 自带的环境一般已经有）。
 
@@ -85,8 +85,8 @@ Lingliu API Nodes is a ComfyUI custom node pack by LINGLIU AI (Wenzhou Lingliu I
 
 ### Install
 
-- ComfyUI Manager: search for "Lingliu" and install, then restart ComfyUI.
 - Manual: `git clone` this repository into `ComfyUI/custom_nodes/` and run `pip install -r requirements.txt`.
+- ComfyUI Manager: once the listing is approved (under review), search for "Lingliu" and install, then restart ComfyUI.
 
 ### Quick start
 
